@@ -3,11 +3,6 @@
 
 # Sobre o projeto
 
-## Modelo de Requisições
-
-## Modelo conceitual
-![Modelo Conceitual](https://github.com/SamuelLost/springboot-project/blob/master/assets/umls.png)
-
 # Tecnologias utilizadas
 ## Back end
 - Java
@@ -19,19 +14,56 @@
 ## Requisições para API
 - Postman
 
+![Tecnologias](assets/tecnologias.png)
+
+## Modelo de Requisições
+### Endpoints
+
+- GET /users
+
+- GET /users/{id}
+
+- POST /users
+
+- PUT /users/{id}
+
+- DELETE /users/{id}
+
+- GET /orders
+
+- GET /orders/{id}
+
+- GET /categories
+
+- GET /categories/{id}
+
+### Exemplo de requisição - GET /users
+
+![Requisição](assets/get.png)
+
+### Exemplo de requisição - POST /users
+
+![Requisição](assets/post.png)
+
+## Modelo conceitual
+![Modelo Conceitual](assets/umls.png)
+
+## Modelo de Instâncias
+![Modelo de Instâncias](assets/instance.png)
+
 # Como executar o projeto
 
 ## Back end
 Pré-requisitos: Java 17
 
 ```bash
-# clonar repositório
+# Clonar o repositório
 git clone https://github.com/SamuelLost/springboot-project.git
 
-# entrar na pasta do projeto back end
+# Entrar na pasta do projeto
 cd springboot-project
 
-# executar o projeto
+# Executar o projeto
 ./mvnw spring-boot:run
 ```
 
