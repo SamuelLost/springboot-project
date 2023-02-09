@@ -6,7 +6,7 @@
 ## Modelo de Requisições
 
 ## Modelo conceitual
-![Modelo Conceitual](https://github.com/SamuelLost/springboot-project/assets/umls.png)
+![Modelo Conceitual](https://github.com/SamuelLost/springboot-project/blob/master/assets/umls.png)
 
 # Tecnologias utilizadas
 ## Back end
